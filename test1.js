@@ -14,7 +14,7 @@ client.on('qr', (qr) => {
 client.on('ready', () => {
     console.log('¡El cliente está listo!');
 
-    const numeroDestino = "+56959056682";
+    const numeroDestino = "";
     const chatId = numeroDestino.substring(1) + "@c.us";
 
     client.sendMessage(chatId, `Inicio de sesión exitoso`);
