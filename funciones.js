@@ -4,7 +4,7 @@ async function nombreContacto(msg, client) {
     const minuscula = msg.body.toLowerCase();
     if (minuscula.includes('!nombre')) {
         msg.reply('hola muchas gracias facilitarme tu nombre. ')
-        const tuNumero = "+56959056682";
+        const tuNumero = ;
         const chatId = tuNumero.substring(1) + "@c.us";
         const numeroUsuario = msg.from.split('@')[0];
         client.sendMessage(chatId, `La consulta del usuario +${numeroUsuario} es: \n${msg.body}`);
@@ -55,7 +55,7 @@ function contacto(msg, client) {
     if (minuscula === '!contacto') {
         msg.reply('Mi nombre es Fernando Silva\nMi correo es: fernandosilvot@gmail.com\nPuedes escribirme por correo o escribe \'!whatsapp\' junto a consulta, tratare de responder a la brevedad');
         msg.reply('Ejemplo: \n!whatsapp Hola, necesito ayuda con mi proyecto');
-        const tuNumero = "+56959056682";
+        const tuNumero = ;
         const chatId = tuNumero.substring(1) + "@c.us";
         const numeroUsuario = msg.from.split('@')[0];
         client.sendMessage(chatId, `El usuario ${numeroUsuario} solicitó tu contacto`);
@@ -66,7 +66,7 @@ function whatsapp(msg, client) {
     const minuscula = msg.body.toLowerCase();
     if (minuscula.includes('!whatsapp')) {
         msg.reply('Muchas Gracias, tratare de responderte a la brevedad');
-        const tuNumero = "+56959056682";
+        const tuNumero = ;
         const chatId = tuNumero.substring(1) + "@c.us";
         const numeroUsuario = msg.from.split('@')[0];
         client.sendMessage(chatId, `La consulta del usuario +${numeroUsuario} es: \n${msg.body}`);
