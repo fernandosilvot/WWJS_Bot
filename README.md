@@ -46,3 +46,4 @@ PAGINA_WEB=tupaginaweb.com     # URL de tu página web
 - `funciones_2.js`: Contiene funciones para manejar diferentes comandos y respuestas.
 
 **Nota**: Este chatbot es una implementación básica y puede ser extendido según las necesidades específicas del usuario. 
+![Imagen del proyecto](https://github.com/fernandosilvot/WWJS_Bot/blob/version1/Imagen_proyecto.jpg)
